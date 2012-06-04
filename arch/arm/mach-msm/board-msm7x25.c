@@ -2064,7 +2064,7 @@ static uint32_t msm_sdcc_setup_power(struct device *dv, unsigned int vdd)
 	}
 
 	if (!vreg_sts) {
-        /*wifi ¨¦?¦Ì?2??¨²¡ä?¡ä|¡ä|¨¤¨ª,¨¨?SD?¡§D¨¨¨°a?¨²¡ä?¡ä|¨¦?¦Ì?,??DT??vreg_mmc*/
+        /*wifi ï¿½ï¿½?ï¿½ï¿½?2??ï¿½ï¿½ï¿½ï¿½?ï¿½ï¿½|ï¿½ï¿½|ï¿½ï¿½ï¿½ï¿½,ï¿½ï¿½?SD?ï¿½ï¿½Dï¿½ï¿½ï¿½ï¿½a?ï¿½ï¿½ï¿½ï¿½?ï¿½ï¿½|ï¿½ï¿½?ï¿½ï¿½?,??DT??vreg_mmc*/
         //rc = vreg_set_level(vreg_mmc, 2850);
         if (!rc)
             //rc = vreg_enable(vreg_mmc);
